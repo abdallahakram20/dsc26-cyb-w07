@@ -1,0 +1,5 @@
+{"ts": "2026-10-29T20:36:15.204Z", "level": "warning", "msg": "token issued from new IP 41.33.12.90", "user": "svc-export"}
+{"ts": "2026-10-29T20:40:10.511Z", "level": "info", "msg": "raw download", "user": "svc-export", "doc_id": "DOC-88123"}
+{"ts": "2026-10-29T21:05:00Z", "level": "warning", "msg": "svc-export key revoked by hossam.eldin@tanweer.example, on call 01001234567", "user": "hossam.ops"}
+{"ts": "2026-10-29 21:12:03", "level": "info", "msg": "missing offset"}
+{"ts": "2026-10-29T21:12:03.000Z", "level": "info", "msg": "download refused: key revoked", "user": "svc-export", "doc_id": "DOC-88990"}
