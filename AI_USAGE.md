@@ -10,8 +10,9 @@ I used Muse, my AI assistant, to write the first draft of the three modules in i
 
 ## What AI got wrong
 
-<!-- At least one thing an AI tool got wrong that you changed, and how you noticed:
-     a test, the docs, running it. -->
+Muse first tried to commit the starter without a git identity set, so the commit failed with an author identity error. I set the name and email in the repo and ran the commit again, and it went through.
+
+Muse also first misread a nested JSON spot check as a failure, because the sample line did not start with a brace and went through plain text redaction instead of the structural path. I re-ran the check with a real JSON line, and the nested Password field came back as [REDACTED:field] with null and empty values kept.
 
 ## In my own words
 
